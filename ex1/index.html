@@ -1,0 +1,253 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Exercici 1</title>
+</head>
+<body>
+
+<style>
+table {
+	width:100%;
+}
+
+td {
+	text-align:center;
+	background-color:#d8e0e5;
+	border-radius:15px;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding-top:14px;
+	padding-right:16px;
+	padding-bottom:14px;
+	padding-left:16px;
+	
+	text-decoration:none;
+}
+
+li a:hover {
+	background-color:#111;
+}
+
+td:hover {
+	background-color:#a5cfe9;
+	animation:pokemon-up .3s;
+	cursor: pointer;
+}
+.fuego {
+background-color:#ff7a33;
+}
+
+.planta { 
+background-color:#07dc41;
+}
+
+.veneno {
+background-color:#ac00e3;
+}
+
+.agua {
+background-color:#02b2ff;
+}
+
+.electrico {
+background-color:#ffff03;
+}
+
+.roca {
+background-color:#b8a258;
+}
+
+.psiquico {
+background-color:#f700ff;
+}
+
+.tierra {
+background-color:#dcc36e;
+}
+
+.bicho {
+background-color:#c0f767;
+}
+
+.volador {
+background-color:#a5e2ff;
+}
+
+.dragon {
+background-color:#a97de8;
+}
+
+.lucha {
+background-color:#c32906;
+}
+
+.normal {
+background-color:#dddddd;
+}
+
+.fantasma {
+background-color:#bfa5d1;
+}
+
+.hielo {
+background-color:#00fff3;
+}
+
+.tipo {
+	width:30%;
+	
+}
+
+.nom {
+	
+}
+
+.descripcio {
+
+}
+
+@keyframes  pokemon-up {
+
+	0%, 
+	100% {
+	transform:translateT(0);	
+}
+
+	50% {
+	transform:translateY(-.4rem);
+}
+}  
+
+
+</style>
+
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">Pokedex 1</a></li>
+	<li><a href="">Pokedex 2</a></li>
+	<li><a href="">Pokedex 3</a></li>
+</ul>
+	
+	
+<table>
+	<tr>
+		<td> 
+			<img src="../img/bulbasaur.png"/>
+			<div class="descripcio">
+				<h3 class="nom">Bulbasur</h3>
+				<div>
+					<div class="planta">Planta</div>
+					<div class="veneno">Veneno</div>
+				</div>
+			</div>
+		</td>
+		<td> 
+			<img src="../img/ivysaur.png"/> 
+			<h3 class="nom">Ivysaur</h3>
+		<div>
+				<div class="planta">Planta</div>
+				<div class="veneno">Veneno</div>
+		</div>
+		</td>
+		
+		<td> 
+			<img src="../img/venusaur.png"/>
+			<h3 class="nom">Venusasur</h3> 
+		<div>
+				<div class="planta">Planta</div>
+				<div class="veneno">Veneno</div>
+		</div>
+		</td>
+		
+	</tr>
+	<tr>
+		<td> 
+			<img src="../img/charmander.png"/> 
+			<h3 class="nom">Charmander</h3>
+		<div>
+				<div class="fuego">Fuego</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/charmeleon.png"/>
+			<h3 class="nom">Charmeleon</h3> 
+		<div>
+				<div class="fuego">Fuego</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/charizard.png"/>
+			<h3 class="nom">Charizard</h3> 
+		<div>
+				<div class="fuego">Fuego</div>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<img src="../img/squirtle.png"/>
+			<h3 class="nom">Squirtle</h3> 
+		<div>
+				<div class="agua">Agua</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/wartortle.png"/>
+			<div>
+			<div class="descripcio"> 
+				<h3 class="nom">Wartortle</h3>
+		<div>
+				<div class="agua">Agua</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/Blastoise.png"/>
+			<h3 class="nom">Blastoise</h3> 
+		<div>
+				<div class="agua">Agua</div>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<img src="../img/caterpie.png"/>
+			<h3 class="nom">Caterpie</h3> 
+		<div>
+				<div class="bicho">Bicho</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/metapod.png"/> 
+			<h3 class="nom">Metapod</h3>
+		<div>
+				<div class="bicho">Bicho</div>
+		</div>
+		</td>
+		<td> 
+			<img src="../img/butterfree.png"/>
+			<h3 class="nom">Butterfree</h3> 
+		<div>
+				<div class="bicho">Fuego</div>
+				<div class="volador">Volador</div>
+		</div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
